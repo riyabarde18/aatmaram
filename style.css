@@ -359,11 +359,12 @@ img {
 
 .hero-name {
     font-family: 'Archivo Black', sans-serif;
-    font-size: clamp(1.4rem, 3.2vw, 2.3rem);
+    font-size: clamp(1.1rem, 3.2vw, 2.3rem);
     line-height: 1.1;
     color: var(--text-primary);
     margin-bottom: 0.15rem;
     letter-spacing: -0.5px;
+    white-space: nowrap;
 }
 
 .hero-title {
