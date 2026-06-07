@@ -775,7 +775,8 @@ img {
 }
 
 .role-title {
-    font-size: 1.25rem;
+    font-family: var(--font-body);
+    font-size: 1.15rem;
     font-weight: 700;
     line-height: 1.2;
     color: var(--grape);
