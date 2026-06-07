@@ -2049,10 +2049,11 @@ textarea.form-control {
     border: 1px solid rgba(30, 58, 138, 0.08);
     box-shadow: var(--shadow-premium);
     border-radius: 8px;
-    padding: 4.5rem 4rem;
+    padding: 6rem 5rem;
     position: relative;
     z-index: 2;
     width: 100%;
+    max-width: 1200px;
 }
 
 @media (max-width: 768px) {
