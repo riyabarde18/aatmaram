@@ -1274,78 +1274,7 @@ img {
     font-weight: 500;
 }
 
-/* Leaderboard Table Styles */
-.table-area {
-    width: 100%;
-}
 
-.table-responsive {
-    overflow-x: auto;
-    box-shadow: var(--shadow-medium);
-    border: 1px solid rgba(197, 160, 89, 0.15);
-}
-
-.leaderboard-table {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: var(--bg-secondary);
-    text-align: left;
-    font-size: 0.9rem;
-}
-
-.leaderboard-table th, 
-.leaderboard-table td {
-    padding: 1.2rem 1.5rem;
-    border-bottom: 1px solid rgba(10, 25, 47, 0.05);
-}
-
-.leaderboard-table th {
-    background-color: var(--text-primary);
-    color: var(--bg-primary);
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 0.75rem;
-    letter-spacing: 1px;
-}
-
-/* Highlight Atmaram's Row */
-.leaderboard-table tr.highlight-row {
-    background-color: var(--accent-light);
-    color: var(--text-primary);
-    border-top: 2px solid var(--accent);
-    border-bottom: 2px solid var(--accent);
-    position: relative;
-    box-shadow: inset 0 0 10px rgba(197, 160, 89, 0.2);
-}
-
-.highlight-score {
-    color: var(--accent-dark);
-    font-size: 1.05rem;
-}
-
-.status-pill {
-    display: inline-block;
-    padding: 0.2rem 0.6rem;
-    font-size: 0.75rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-.status-pill.status-yes {
-    background-color: rgba(72, 187, 120, 0.1);
-    color: #38A169;
-}
-
-.status-pill.status-yes.status-accent {
-    background-color: var(--text-primary);
-    color: var(--accent-light);
-}
-
-.status-pill.status-no {
-    background-color: rgba(229, 62, 62, 0.1);
-    color: #E53E3E;
-}
 
 /* ==========================================================================
    CONTACT SECTION
