@@ -2013,6 +2013,10 @@ button {
 .stagger-5 { transition-delay: 500ms; }
 .stagger-6 { transition-delay: 600ms; }
 
+.mobile-nav-overlay {
+    display: none;
+}
+
 /* Reduced Motion Settings */
 @media (prefers-reduced-motion: reduce) {
     * {
