@@ -498,7 +498,10 @@ function renderHome() {
         const slide = document.createElement("div");
         slide.className = `hero-slide ${index === 0 ? "active" : ""}`;
         slide.innerHTML = `
-            <img src="${saree.image}" class="hero-image" alt="Saree Slide ${index + 1}">
+            <img src="${saree.image}" class="hero-bg-blur" alt="" aria-hidden="true">
+            <div class="hero-fg-container">
+                <img src="${saree.image}" class="hero-fg-image" alt="${saree.name}">
+            </div>
             <div class="hero-overlay"></div>
             <div class="hero-content">
                 <div class="hero-line"></div>
